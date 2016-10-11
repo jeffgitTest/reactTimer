@@ -1,5 +1,5 @@
 var React = require("react");
-
+var Clock = require("Clock");
 var Timer = React.createClass({
   componentDidMount: function(){
       var location = this.props.location.query.location;
