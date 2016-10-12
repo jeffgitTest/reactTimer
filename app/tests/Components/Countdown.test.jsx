@@ -25,7 +25,7 @@ describe('Countdown', ()=>{
       },1001);
     });
 
-    it('Should never set count less than or equal to zeron',()=>{
+    it('Should never set count less than or equal to zero',()=>{
       var countdown = TestUtils.renderIntoDocument(<Countdown />);
       countdown.handleSetCountdown(1);
       setTimeout(()=>{
